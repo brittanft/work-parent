@@ -10,6 +10,8 @@
 	
 	<properties>
 		<outputFolder>${basedir}/../output</outputFolder>
+		<project.url>http://www.brittan.me</project.url>
+		<project.plugin.author>Brittan Thomas</project.plugin.author>
 	</properties>
 	
 	<build>
@@ -39,7 +41,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
 				<version>1.8</version>
@@ -60,7 +62,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 </project>
